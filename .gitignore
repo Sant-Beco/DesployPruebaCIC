@@ -1,0 +1,27 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos de configuración sensible
+settings.py
+
+# Archivos de base de datos
+*.sqlite3
+*.db
+
+# Archivos de caché y logs
+*.pyc
+__pycache__/
+*.log
+
+# Archivos de IDE
+.idea/
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de migraciones (opcional, dependiendo de tu flujo de trabajo)
+*/migrations/*.py
+!*/migrations/__init__.py
